@@ -1,6 +1,6 @@
 import  React  from 'react';
 import { connect } from 'react-redux'
-import {REQUEST_EMOJIS} from '../store/action/index'
+import {REQUEST_EMOJIS,SET_EMOJIS1} from '../store/action/index'
 
 const App = (props)=>{
   const {emojis} = props
@@ -22,7 +22,7 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-  requestEmojis: () => dispatch(REQUEST_EMOJIS()),
+  requestEmojis: () => dispatch(SET_EMOJIS1()),
 })
 
 export default  connect(mapStateToProps,mapDispatchToProps)(App)
