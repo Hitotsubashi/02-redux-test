@@ -1,10 +1,10 @@
-const reducer = (state,action)=>{
+const reducer = (state, action) => {
   switch (action.type) {
-    case 'SET_EMOJIS':
-      return action.emojis
+    case "SET_EMOJIS":
+      return action.emojis;
     default:
-      return state
+      return state;
   }
-}
+};
 
-export default reducer
+export default reducer;

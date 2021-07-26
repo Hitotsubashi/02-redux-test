@@ -1,4 +1,3 @@
-export const SET_EMOJIS=(emojis)=>({
-  type:'SET_EMOJIS',
-  emojis
-})
+export const REQUEST_EMOJIS = () => ({
+  type: "REQUEST_EMOJIS",
+});
