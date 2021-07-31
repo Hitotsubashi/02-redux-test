@@ -4420,8 +4420,8 @@ readdirp@^2.2.1:
 
 redux-promise@^0.6.0:
   version "0.6.0"
-  resolved "https://registry.npm.taobao.org/redux-promise/download/redux-promise-0.6.0.tgz#c64723b5213bb5603c11b74302883b682e06b319"
-  integrity sha1-xkcjtSE7tWA8EbdDAog7aC4Gsxk=
+  resolved "https://registry.yarnpkg.com/redux-promise/-/redux-promise-0.6.0.tgz#c64723b5213bb5603c11b74302883b682e06b319"
+  integrity sha512-R2mGxJbPFgXyCNbFDE6LjTZhCEuACF54g1bxld3nqBhnRMX0OsUyWk77moF7UMGkUdl5WOAwc4BC5jOd1dunqQ==
   dependencies:
     flux-standard-action "^2.0.3"
     is-promise "^2.1.0"
