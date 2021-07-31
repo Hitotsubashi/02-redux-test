@@ -1,4 +1,5 @@
-import { call, put, takeEvery } from "redux-saga/effects";
+// import { call, put, takeEvery } from "redux-saga/effects";
+import { call, put, takeEvery } from '../../myReduxSaga/effects';
 
 const fetchEmojis = async () => {
   return fetch("https://api.github.com/emojis").then((res) => res.json());
